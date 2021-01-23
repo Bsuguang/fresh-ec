@@ -2,6 +2,7 @@
 
 本源码为仿某生鲜电商平台，包含前后端，其中前端代码使用 avm.js 多端技术开发，可同时编译为 Android & iOS App 以及微信小程序；后端使用 APICloud 数据云 3.0 云函数自定义接口。
 
+![preview](./docs/preview.jpg)
 ### 源码目录结构介绍
 
 目录结构延续 widget 代码包的目录结构，在 widget 根目录下新增 pages 目录，该目录下用于创建符合 avm.js 语法规范的 stml 文件，stml 文件可用于编译为 App 和小程序代码。
