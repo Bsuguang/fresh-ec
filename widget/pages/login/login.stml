@@ -27,8 +27,14 @@ export default {
         }
     },
     methods: {
-        apiready() {
-            document.getElementById('username').focus();
+        onShow() {
+            var username = document.getElementById('username');
+            var password = document.getElementById('password');
+            if (!username.value) {
+                username.focus();
+            } else if (!password.value) {
+                password.focus();
+            }
         },
         // 登录
         fnLogin() {
